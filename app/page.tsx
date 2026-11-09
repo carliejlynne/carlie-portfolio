@@ -288,25 +288,29 @@ className="h-[300px] w-full object-contain bg-[#F4E4E8] transition duration-300 
 
     <div className="mt-8 h-px w-full bg-[#B8ADA0]" />
 
-    <div className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-lg bg-white shadow-xl">
-      
-<img
-  src="/carlie-resume.png"
-  alt="Carlie Gonzalez Resume"
-  className="block h-auto w-full"
-/>
+    
 
-    </div>
 
-<div className="mt-8 text-center">
+<div className="mt-8 flex flex-wrap justify-center gap-4">
   <a
-    href="/carlie-resume.pdf"
-    download="Carlie-Gonzalez-Resume.pdf"
-    className="inline-block rounded-md bg-[#242424] px-8 py-4 text-sm uppercase tracking-[0.15em] text-[#F5EFE6] transition-colors hover:bg-[#48413B]"
+    href="/software-resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block rounded-md bg-[#242424] px-8 py-4 text-sm uppercase tracking-widest text-white transition hover:bg-[#625B55]"
   >
-    Download Resume ↓
+    Software Engineering Resume ↗
+  </a>
+
+  <a
+    href="/embedded-resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block rounded-md bg-[#242424] px-8 py-4 text-sm uppercase tracking-widest text-white transition hover:bg-[#625B55]"
+  >
+    Embedded Systems Resume ↗
   </a>
 </div>
+
 
   </div>
 </section>
