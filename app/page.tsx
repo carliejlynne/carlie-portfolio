@@ -133,11 +133,13 @@ text-[#F5EFE6] [&_h1]:!text-[#F5EFE6] [&_p]:!text-[#F5EFE6]">
     <div className="mt-8 h-px w-full bg-[#B8ADA0]" />
 
 <div className="mt-12 grid items-center gap-10 md:grid-cols-2">
-  <div className="flex min-h-[300px] items-center justify-center bg-[#D8CFC2]">
-    <span className="text-xs uppercase tracking-[0.3em] text-[#625B55]">
-      Project Preview Coming Soon
-    </span>
-  </div>
+  <div className="h-[300px] overflow-hidden rounded-lg">
+  <img
+    src="/smart-baking-recipes.jpg"
+    alt="Smart Baking Assistant recipe website"
+    className="h-full w-full object-contain"
+  />
+</div>
 
   <div>
     <p className="mb-4 text-xs uppercase tracking-[0.25em] text-stone-600">
@@ -158,8 +160,58 @@ text-[#F5EFE6] [&_h1]:!text-[#F5EFE6] [&_p]:!text-[#F5EFE6]">
     <p className="mt-6 text-sm text-[#625B55]">
       React · Arduino · Web Development
     </p>
+
+<a
+  href="/projects/smart-baking-assistant"
+  className="mt-6 inline-block border-b border-[#242424] pb-1 text-sm text-[#242424] transition-opacity hover:opacity-60"
+>
+  Explore Project ↗
+</a>
+
   </div>
 </div>
+
+<div className="mt-16 grid items-center gap-10 md:grid-cols-2">
+  <a
+    href="/projects/little-learners"
+    className="block overflow-hidden rounded-lg"
+  >
+    <img
+      src="/little-learner.jpg"
+      alt="Little Learners educational website"
+      
+className="h-[300px] w-full object-contain bg-[#F4E4E8] transition duration-300 hover:scale-105"
+ />
+  </a>
+
+  <div>
+    <p className="mb-4 text-xs uppercase tracking-[0.25em] text-stone-500">
+      02 / Web Development
+    </p>
+
+    <h3 className="font-serif text-4xl text-[#242424]">
+      Little Learners
+    </h3>
+
+    <p className="mt-6 leading-8 text-[#48413B]">
+      An interactive educational website for children ages
+      3–10, featuring personalized learning experiences,
+      engaging activities, games, and quizzes.
+    </p>
+
+    <p className="mt-6 text-sm text-[#625B55]">
+      Next.js · React · TypeScript · CSS
+    </p>
+
+    <a
+      href="/projects/little-learners"
+      className="mt-6 inline-block border-b border-[#242424] pb-1 text-sm text-[#242424] transition hover:opacity-60"
+    >
+      Explore Project ↗
+    </a>
+  </div>
+</div>
+
 
   </div>
 </section>
@@ -180,11 +232,21 @@ text-[#F5EFE6] [&_h1]:!text-[#F5EFE6] [&_p]:!text-[#F5EFE6]">
     <div className="mt-8 h-px w-full bg-[#625B55]" />
 
 <div className="mt-12 grid items-center gap-10 md:grid-cols-2">
-  <div className="flex min-h-[300px] items-center justify-center bg-[#383838]">
-    <span className="px-4 text-center text-xs uppercase tracking-[0.3em] text-[#C4B8AA]">
-      Project Preview Coming Soon
-    </span>
-  </div>
+  
+
+<a
+  href="/projects/esp32-mp3"
+  className="block overflow-hidden rounded-lg"
+  aria-label="Explore ESP32 Portable Music Player project"
+>
+  <img
+    src="/esp32-music-player.jpg"
+    alt="ESP32 portable music player prototype with OLED display"
+    className="h-[300px] w-full object-cover object-center scale-[1.8] translate-y-[35px]"
+  />
+</a>
+
+
 
   <div>
     <p className="mb-4 text-xs uppercase tracking-[0.25em] text-[#C4B8AA]">
