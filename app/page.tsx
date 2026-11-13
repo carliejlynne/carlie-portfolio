@@ -133,13 +133,19 @@ text-[#F5EFE6] [&_h1]:!text-[#F5EFE6] [&_p]:!text-[#F5EFE6]">
     <div className="mt-8 h-px w-full bg-[#B8ADA0]" />
 
 <div className="mt-12 grid items-center gap-10 md:grid-cols-2">
-  <div className="h-[300px] overflow-hidden rounded-lg">
+  
+<a
+  href="/projects/smart-baking-assistant"
+  className="block h-[300px] overflow-hidden rounded-lg"
+  aria-label="Explore Smart Scale and Recipe App project"
+>
   <img
     src="/smart-baking-recipes.jpg"
     alt="Smart Baking Assistant recipe website"
-    className="h-full w-full object-contain"
+    className="h-full w-full object-contain transition duration-300 hover:scale-105"
   />
-</div>
+</a>
+
 
   <div>
     <p className="mb-4 text-xs uppercase tracking-[0.25em] text-stone-600">
@@ -267,12 +273,26 @@ className="h-[300px] w-full object-contain bg-[#F4E4E8] transition duration-300 
     <p className="mt-6 text-sm text-[#C4B8AA]">
       ESP32 · C++ · Arduino IDE · Electronics
     </p>
+
+<a
+  href="/projects/esp32-mp3"
+  className="mt-6 inline-block border-b border-[#C4B8AA] pb-1 text-sm text-[#F5EFE6] transition-opacity hover:opacity-60"
+>
+  Explore Project ↗
+</a>
+
   </div>
 </div>
 
 <div className="mt-20 grid items-center gap-10 md:grid-cols-2">
 
-  <div className="flex h-[300px] items-center justify-center rounded-lg border border-[#625B55] bg-[#302F2D]">
+  
+<a
+  href="/projects/haptic-navigation"
+  className="flex h-[300px] items-center justify-center rounded-lg border border-[#625B55] bg-[#302F2D] transition duration-300 hover:bg-[#3A3835]"
+  aria-label="Explore Head-Mounted Haptic Navigation Device project"
+>
+
     <div className="px-8 text-center">
       <p className="mb-4 text-xs uppercase tracking-[0.3em] text-[#C4B8AA]">
         EMBEDDED SYSTEMS
@@ -284,7 +304,7 @@ className="h-[300px] w-full object-contain bg-[#F4E4E8] transition duration-300 
         Wearable Assistive Technology
       </p>
     </div>
-  </div>
+  </a>
 
   <div>
     <p className="mb-4 text-xs uppercase tracking-[0.25em] text-[#C4B8AA]">
