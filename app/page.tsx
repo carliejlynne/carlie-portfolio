@@ -270,6 +270,55 @@ className="h-[300px] w-full object-contain bg-[#F4E4E8] transition duration-300 
   </div>
 </div>
 
+<div className="mt-20 grid items-center gap-10 md:grid-cols-2">
+
+  <div className="flex h-[300px] items-center justify-center rounded-lg border border-[#625B55] bg-[#302F2D]">
+    <div className="px-8 text-center">
+      <p className="mb-4 text-xs uppercase tracking-[0.3em] text-[#C4B8AA]">
+        EMBEDDED SYSTEMS
+      </p>
+      <h3 className="font-serif text-3xl text-[#F5EFE6]">
+        Haptic Navigation Device
+      </h3>
+      <p className="mt-4 text-sm text-[#C4B8AA]">
+        Wearable Assistive Technology
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <p className="mb-4 text-xs uppercase tracking-[0.25em] text-[#C4B8AA]">
+      02 / Embedded Systems + Assistive Technology
+    </p>
+
+    <h3 className="font-serif text-4xl text-[#F5EFE6]">
+      Head-Mounted Haptic Navigation Device
+    </h3>
+
+    <p className="mt-6 leading-8 text-[#D8CFC2]">
+      An in-progress team project focused on developing a
+      wearable navigation device for visually impaired
+      individuals. Using an STM32 microcontroller,
+      ultrasonic sensors, and haptic feedback, the system
+      is designed to detect nearby obstacles from three
+      directions and communicate their location through
+      vibration patterns.
+    </p>
+
+    <p className="mt-6 text-sm text-[#C4B8AA]">
+      STM32 · C/C++ · Ultrasonic Sensors · I2C · Haptic Feedback
+    </p>
+
+    <a
+      href="/projects/haptic-navigation"
+      className="mt-6 inline-block border-b border-[#C4B8AA] pb-1 text-sm text-[#F5EFE6] transition-opacity hover:opacity-60"
+    >
+      Explore Project ↗
+    </a>
+  </div>
+
+</div>
+
   </div>
 </section>
 
